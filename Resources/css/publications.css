@@ -1,0 +1,148 @@
+body{
+    font-size: 16px;
+    font-family: lato, sans-serif,serif;
+    background-color: #dddde0;
+    margin: 0 auto;
+}
+/*Navegador*/
+nav{
+    background-color: #002147;
+    font-size: 1rem;
+    font-family: lato, sans-serif, arial;
+    padding: 5px 15px;
+    border-radius: 8px;
+    width:100%;
+    position: fixed;
+    z-index: 2;
+    margin: 0 auto;
+    top:0;
+}
+#navegador-desktop{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    height: 65px;
+    padding: 5px 15px;
+}
+.logo {
+    font-family: montserrat, lato, sans-serif, arial;
+    font-size: 0.8rem;
+    display: flex;
+    margin: auto 0;
+}
+.logo h1{
+    padding-top: 3px;
+    padding-left: 5px;
+}
+h1 .color{
+    color:#ff8700;
+}
+.logo img {
+    width: 60px;
+    vertical-align: middle;
+}
+#navegador-desktop .menu{
+    margin: auto 0;
+}
+.menu li{
+    display: inline;
+    font-family: lato, sans-serif, arial;
+}
+.menu a {
+    text-decoration:none;
+    color: white;
+    padding: 0 10px;
+}
+/*BANNER*/
+#bannerindex{
+    margin-top: 80px;
+}
+.banner{
+    background-image: url("/Resources/images/bannerpublications.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30rem;
+}
+.banner h1{
+    font-family: lato, sans-serif, arial;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10rem;
+    color:white;
+}
+.banner h3{
+    font-family: lato, sans-serif, arial;
+    text-align:center;
+    font-size: 1.2rem;
+    color: white;
+}
+/*publication area*/
+.main-content{
+    width: 100%;
+    padding-top: 4rem;
+}
+.title{
+    width: 80%;
+    margin: 0 auto;
+    color:#3b6ba5
+}
+.title span{
+    position: relative;
+    float:right
+}
+.publications-title{
+    margin-top: 2rem;
+    height: auto;
+    padding-left: 7rem;
+}
+table{
+    font-family: lato, sans sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 90%;
+    text-align: left;
+}
+.publications-title th{
+    text-decoration: none;
+    font-family: lato,sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 6.5px 10px;
+}
+.publications-title span{
+    font-style: italic;
+    font-weight:bold;
+}
+.publications-title a{
+    text-decoration: none;
+    color:#3b6ba5;
+}
+.publications-title a:hover{
+    color: #274e7e;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+.title2{
+    font-family: lato, sans-serif;
+    font-size: 1.8rem;
+    padding: 3rem 3rem 0.5rem 3rem;
+    text-align: center;
+    color:#426da1;
+}
+/*FOOTER*/
+footer{
+    margin-top: 2rem;
+    background-color: #002147;
+    font-family: robot, sans-serif, arial;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding: 0 30px;
+    border-radius: 8px;
+}
