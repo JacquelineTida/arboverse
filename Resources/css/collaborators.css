@@ -1,0 +1,153 @@
+body{
+    font-size: 16px;
+    font-family: lato, sans-serif,serif;
+    background-color: #dddde0;
+    margin: 0 auto;
+}
+/*Navegador*/
+nav{
+    background-color: #002147;
+    font-size: 1rem;
+    font-family: lato, sans-serif, arial;
+    padding: 5px 15px;
+    border-radius: 8px;
+    width:100%;
+    position: fixed;
+    z-index: 2;
+    margin: 0 auto;
+    top:0;
+}
+#navegador-desktop{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    height: 65px;
+    padding: 5px 15px;
+}
+.logo {
+    font-family: montserrat, lato, sans-serif, arial;
+    font-size: 0.8rem;
+    display: flex;
+    margin: auto 0;
+}
+.logo h1{
+    padding-top: 3px;
+    padding-left: 5px;
+}
+h1 .color{
+    color:#ff8700;
+}
+.logo img {
+    width: 60px;
+    vertical-align: middle;
+}
+#navegador-desktop .menu{
+    margin: auto 0;
+}
+.menu li{
+    display: inline;
+    font-family: lato, sans-serif, arial;
+}
+.menu a {
+    text-decoration:none;
+    color: white;
+    padding: 0 10px;
+}
+/*BANNER*/
+#bannerindex{
+    margin-top: 80px;
+}
+.banner{
+    background-image: url("/Resources/images/bannercola.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30rem;
+}
+.banner h1{
+    font-family: lato, sans-serif, arial;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+}
+.banner h3{
+    font-family: lato, sans-serif, arial;
+    text-align:center;
+    font-size: 1.2rem;
+    color: white;
+}
+/*collaborators*/
+#team {
+    padding: 40px 70px;
+    text-align: center;
+    font-family: montserrat, sans-serif, arial;
+    font-weight:400;
+    color: rgb(107, 103, 103);
+}
+.person{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.unit{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 10px;
+}
+.unit img{
+    -webkit-filter: grayscale(100%);
+    width:300px;
+}
+.unit img:hover{
+    -webkit-filter: grayscale(0%);
+    transition: 0.3s;
+}
+.personal-description{
+    color:rgb(70, 66, 66);
+    line-height: 1;
+    height:auto;
+}
+.personal-description h4{
+    font-family: lato, sans-serif, arial;
+    font-size: 0.9rem;
+}
+.personal-description p {
+    padding:0;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-family: lato, sans-serif, arial;
+    line-height: 1.8;
+    width: 90%;
+    margin: 0 auto;
+}
+.mediacontact{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mediacontact img{
+    width:25px;
+    -webkit-filter: grayscale(100%);
+}
+.mediacontact img:hover{
+    -webkit-filter: grayscale(0%);
+    transition: 0.5s;
+    delay: 1s;
+}
+/*FOOTER*/
+footer{
+    background-color: #002147;
+    font-family: robot, sans-serif, arial;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding: 0 30px;
+    border-radius: 8px;
+}
