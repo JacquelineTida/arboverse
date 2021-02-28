@@ -39,6 +39,7 @@ h1 .color{
 }
 .logo img {
     width: 60px;
+    height: 60px;
     vertical-align: middle;
 }
 #navegador-desktop .menu{
@@ -59,7 +60,7 @@ h1 .color{
 }
 .banner{
     background-image: url("/Resources/images/banner1.jpg");
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

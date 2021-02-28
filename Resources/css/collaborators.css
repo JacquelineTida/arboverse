@@ -39,6 +39,7 @@ h1 .color{
 }
 .logo img {
     width: 60px;
+    height:60px;
     vertical-align: middle;
 }
 #navegador-desktop .menu{
@@ -77,6 +78,12 @@ h1 .color{
     text-align:center;
     font-size: 1.2rem;
     color: white;
+}
+/*TEAM*/
+#principalteam{
+    color: rgb(107, 103, 103);
+    text-align: center;
+    padding-top: 32px;
 }
 /*collaborators*/
 #team {
@@ -138,7 +145,6 @@ h1 .color{
 .mediacontact img:hover{
     -webkit-filter: grayscale(0%);
     transition: 0.5s;
-    delay: 1s;
 }
 /*FOOTER*/
 footer{
