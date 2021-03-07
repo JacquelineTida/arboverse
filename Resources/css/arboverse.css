@@ -59,18 +59,18 @@ h1 .color{
     margin-top: 80px;
 }
 .banner{
-    background-image: url("/Resources/images/bannerrese.jpeg");
+    background-image: url("/Resources/images/banneramazon.jpeg");
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 30rem;
+    height: 38rem;
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
     font-size: 3rem;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 15rem;
     color:white;
 }
 .banner h3{
@@ -79,58 +79,8 @@ h1 .color{
     font-size: 1.2rem;
     color: white;
 }
-
-/*Research lines*/
-
-#researchline{
-    line-height: 0.5;
-    padding: 32px 40px;
-    text-align: center;
-    font-family: lato, sans-serif, arial;
-    color:rgb(80, 78, 78);
-}
-.researchunit h1,
-p{
-    line-height: 0.4;
-}
-
-.researchunit{
-    padding-top: 30px;
-    line-height: 1.5;
-    margin: 40px auto;
-    background-color: rgba(128, 128, 128, 0.15);
-    width: 80%;
-    height: auto;
-    border-radius: 5px;
-}
-.researchdescription{
-    display: flex;
-    text-align: left;
-    padding: 0 20px;
-    align-items: center;
-}
-.researchdescription img {
-    width: 30%;
-    height: 30%;
-}
-.research-content{
-    width: 70%;
-    display: box;
-    text-align: justify;
-    padding-left: 30px;
-}
-.midia{
-    width:80%;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display:block;
-    text-align: left;
-}
-
 /*FOOTER*/
 footer{
-    margin-top: 2rem;
     background-color: #002147;
     font-family: robot, sans-serif, arial;
     color: white;
@@ -140,3 +90,4 @@ footer{
     padding: 0 30px;
     border-radius: 8px;
 }
+
