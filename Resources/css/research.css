@@ -119,6 +119,9 @@ p{
     text-align: justify;
     padding-left: 30px;
 }
+.research-content p{
+    line-height: 1.5;
+}
 .midia{
     width:80%;
     margin: 0 auto;
