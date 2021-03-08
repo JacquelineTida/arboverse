@@ -1,13 +1,13 @@
 body{
     font-size: 16px;
     font-family: lato, sans-serif,serif;
-    background-color: #dddde0;
+    background-color:hsl(0, 0%, 95%);
     margin: 0 auto;
 }
 /*Navegador*/
 nav{
     background-color: #002147;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: lato, sans-serif, arial;
     padding: 5px 15px;
     border-radius: 8px;
@@ -29,6 +29,10 @@ nav{
     font-size: 0.8rem;
     display: flex;
     margin: auto 0;
+}
+.logo a{
+    text-decoration: none;
+    color:white
 }
 .logo h1{
     padding-top: 3px;
@@ -68,7 +72,7 @@ h1 .color{
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 10rem;
     color: white;
@@ -76,7 +80,7 @@ h1 .color{
 .banner h3{
     font-family: lato, sans-serif, arial;
     text-align:center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
 }
 /*TEAM*/
@@ -84,14 +88,30 @@ h1 .color{
     color: rgb(107, 103, 103);
     text-align: center;
     padding-top: 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#principalteam h1{
+    color:#3e6ca5;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    padding-bottom: 10px;
+    width:10%;
+    margin: 0 auto;
 }
 /*collaborators*/
 #team {
-    padding: 40px 70px;
+    padding: 40px 30px;
     text-align: center;
     font-family: montserrat, sans-serif, arial;
     font-weight:400;
     color: rgb(107, 103, 103);
+}
+#team h1{
+    color:#3e6ca5;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    padding-bottom: 10px;
+    width:20%;
+    margin: 0 auto;
 }
 .person{
     padding-top: 2rem;
@@ -109,38 +129,44 @@ h1 .color{
 .unit img{
     -webkit-filter: grayscale(100%);
     width:300px;
+    border-radius: 10%;
 }
 .unit img:hover{
     -webkit-filter: grayscale(0%);
     transition: 0.3s;
 }
 .personal-description{
-    color:rgb(70, 66, 66);
+    color:#666569;
     line-height: 1;
     height:auto;
 }
 .personal-description h4{
     font-family: lato, sans-serif, arial;
+    font-size: 1.1rem;
+}
+.personal-description h5{
     font-size: 0.9rem;
+    font-family: lato, serif, arial;
 }
 .personal-description p {
     padding:0;
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: lato, sans-serif, arial;
     line-height: 1.8;
     width: 90%;
     margin: 0 auto;
 }
 .mediacontact{
-    padding: 10px 70px;
+    padding: 10px 30px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content:flex-start;
+    align-items: center;
 }
 .mediacontact img{
     width:25px;
     -webkit-filter: grayscale(100%);
+    margin: 15px;
 }
 .mediacontact img:hover{
     -webkit-filter: grayscale(0%);
@@ -153,7 +179,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
-    padding: 0 30px;
+    font-size: 0.8rem;
+    padding: 5px 30px;
     border-radius: 8px;
 }
