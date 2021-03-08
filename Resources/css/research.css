@@ -1,13 +1,13 @@
 body{
     font-size: 16px;
     font-family: lato, sans-serif,serif;
-    background-color: #dddde0;
+    background-color: hsl(0, 0%, 95%);
     margin: 0 auto;
 }
 /*Navegador*/
 nav{
     background-color: #002147;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: lato, sans-serif, arial;
     padding: 5px 15px;
     border-radius: 8px;
@@ -29,6 +29,10 @@ nav{
     font-size: 0.8rem;
     display: flex;
     margin: auto 0;
+}
+.logo a{
+    text-decoration: none;
+    color:white
 }
 .logo h1{
     padding-top: 3px;
@@ -68,7 +72,7 @@ h1 .color{
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 10rem;
     color:white;
@@ -76,7 +80,7 @@ h1 .color{
 .banner h3{
     font-family: lato, sans-serif, arial;
     text-align:center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -87,21 +91,28 @@ h1 .color{
     padding: 32px 40px;
     text-align: center;
     font-family: lato, sans-serif, arial;
-    color:rgb(80, 78, 78);
+    color:#666569;
 }
-.researchunit h1,
-p{
-    line-height: 0.4;
+.researchgcollumn{
+    display: flex;
+    flex-direction: column;
 }
-
+.researchunit h1{
+    color:#3e6ca5;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    padding: 0 30px;
+    width:68%;
+    margin-left: 20px;
+}
 .researchunit{
-    padding-top: 30px;
+    padding: 10px 20px;
     line-height: 1.5;
     margin: 40px auto;
-    background-color: rgba(128, 128, 128, 0.15);
-    width: 80%;
+    background-color: hsl(0, 0%, 90%);
+    width: 90%;
     height: auto;
     border-radius: 5px;
+    color: #666569
 }
 .researchdescription{
     display: flex;
@@ -110,11 +121,10 @@ p{
     align-items: center;
 }
 .researchdescription img {
-    width: 30%;
-    height: 30%;
+    width: 20%;
 }
 .research-content{
-    width: 70%;
+    width: 90%;
     display: box;
     text-align: justify;
     padding-left: 30px;
@@ -122,17 +132,35 @@ p{
 .research-content p{
     line-height: 1.5;
 }
-.midia{
-    width:80%;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display:block;
-    text-align: left;
+.research-content h4{
+    font-weight: 500;
 }
-
+.research-content h3{
+    font-weight: 400;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    width:13%;
+    color: #3e6ca5;
+}
+.research-content a{
+    text-decoration: none;
+    color: #666569;
+    font-style: italic;
+}
+.research-content a:hover{
+    font-size: 1.1rem;
+    color:#4e4e52;
+    font-weight: bold;
+}
+.midia h3{
+    width:10%;
+}
+.midia a{
+    text-decoration:none;
+    color: #666569;
+}
 /*FOOTER*/
-footer{
+
+footer {
     margin-top: 2rem;
     background-color: #002147;
     font-family: robot, sans-serif, arial;

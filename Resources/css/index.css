@@ -7,7 +7,7 @@ body{
 /*Navegador*/
 nav{
     background-color: #002147;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: lato, sans-serif, arial;
     padding: 5px 15px;
     border-radius: 8px;
@@ -29,6 +29,10 @@ nav{
     font-size: 0.8rem;
     display: flex;
     margin: auto 0;
+}
+.logo a{
+    text-decoration: none;
+    color:white
 }
 .logo h1{
     padding-top: 3px;
