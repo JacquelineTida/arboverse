@@ -1,13 +1,13 @@
 body{
     font-size: 16px;
     font-family: lato, sans-serif,serif;
-    background-color: #dddde0;
+    background-color: hsl(0, 0%, 95%);
     margin: 0 auto;
 }
 /*Navegador*/
 nav{
     background-color: #002147;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: lato, sans-serif, arial;
     padding: 5px 15px;
     border-radius: 8px;
@@ -29,6 +29,10 @@ nav{
     font-size: 0.8rem;
     display: flex;
     margin: auto 0;
+}
+.logo a{
+    text-decoration: none;
+    color:white
 }
 .logo h1{
     padding-top: 3px;
@@ -68,7 +72,7 @@ h1 .color{
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 10rem;
     color:white;
@@ -76,7 +80,7 @@ h1 .color{
 .banner h3{
     font-family: lato, sans-serif, arial;
     text-align:center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
 }
 /*publication area*/
@@ -101,6 +105,7 @@ h1 .color{
 table{
     font-family: lato, sans sans-serif;
     font-style: normal;
+    color: hsl(255, 2%, 30%);
     padding-left: 20px;
     padding-right: 30px;
     width: 90%;
@@ -143,7 +148,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
-    padding: 0 30px;
+    font-size: 0.8rem;
+    padding: 5px 30px;
     border-radius: 8px;
 }
