@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     font-family: lato, sans-serif,serif;
-    background-color: #dddde0;
+    background-color: hsl(0, 0%, 95%);
     margin: 0 auto;
 }
 /*Navegador*/
@@ -68,7 +68,7 @@ h1 .color{
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 10rem;
     color:white;
@@ -76,8 +76,11 @@ h1 .color{
 .banner h3{
     font-family: lato, sans-serif, arial;
     text-align:center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
+}
+.banner span{
+    color: #ff8800;
 }
 /*main content*/
 #main-content{
@@ -95,18 +98,19 @@ h1 .color{
 }
 .content h2{
     font-family: lato, sans-serif, arial;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
-    border-top: solid 0.4px rgba(121, 118, 118,0.3);
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
     width: 50%;
     margin: 0 auto;
     color:#3e6ca5;
+    padding-bottom: 15px;
 }
 .content p{
     padding-top: 35px;
     width: 90%;
     margin: 0 auto;
-    color:rgb(121, 118, 118);
+    color:#666569;
     line-height: 2;
     font-size: 1.3rem;
     text-align: justify;
@@ -122,9 +126,10 @@ h1 .color{
 }
 .mainfunding h2{
     font-family: lato, sans-serif, arial;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
-    border-top: solid 0.4px rgba(121, 118, 118,0.3);
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    padding-bottom: 15px;
     width: 35%;
     margin: 0 auto;
     color:#3e6ca5;
@@ -158,8 +163,10 @@ h1 .color{
 }
 .media h4{
     font-family: lato, sans serif, arial;
+    font-size: 1.2rem;
     color: rgb(119, 118, 118);
-    border-top: solid 0.4px rgba(121, 118, 118,0.3);
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
+    padding-bottom: 10px;
     width: 80%;
     margin: 0 auto;
 }
@@ -173,8 +180,9 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
-    padding: 0 30px;
+    align-content: center;
+    font-size: 0.8rem;
+    padding: 5px 30px;
     border-radius: 8px;
 }
 

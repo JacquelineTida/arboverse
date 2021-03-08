@@ -59,8 +59,8 @@ h1 .color{
     margin-top: 70px;
 }
 .banner{
-    background-image: url("/Resources/images/pexels-cdc-3992945.jpg");
-    background-position: center;
+    background-image: url("/Resources/images/pexels-breakingpic-3297.jpg");
+    background-position:initial;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -78,23 +78,61 @@ h1 .color{
     text-align:center;
     font-size: 1.2rem;
     color: whitesmoke;
+    padding-top: 17rem;
 }
 
 /* CALENDAR */
 #calendar {
     font-family: lato, serif;
     width: 75%;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 #jerry{
     padding-right: 10px;
     display: flex;
 }
+.events{
+    width: 20%;
+    margin: 0 auto;
+    font-family: lato, sans-serif;
+    font-size: 1rem;
+    color:grey;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: solid 1px gray;
+}
 .twitterbox{
     width: 22%;
     height: 80px;
-    margin-top: 75px;
+    margin-top: 45px;
     margin-bottom: 10px;
-
+}
+.news{
+    width: 20%;
+    margin: 0 auto;
+    font-family: lato, sans-serif;
+    font-size: 1rem;
+    color:grey;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: solid 1px gray;
+}
+.thenews{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.thenewsunit{
+    text-align: center;
+    font-family: lato, serif;
+    font-size: 2rem;
+    color: gray;
+    display: block;
+    margin:10px;
+    width:30%;
+    height:300px;
+    background: linear-gradient(45deg, #6ac1c5, #bda5ff);
 }
