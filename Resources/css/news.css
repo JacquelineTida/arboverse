@@ -1,13 +1,13 @@
 body{
     font-size: 16px;
     font-family: lato, sans-serif,serif;
-    background-color: #dddde0;
+    background-color:hsl(0, 0%, 95%);
     margin: 0 auto;
 }
 /*Navegador*/
 nav{
     background-color: #002147;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: lato, sans-serif, arial;
     padding: 5px 15px;
     border-radius: 8px;
@@ -29,6 +29,10 @@ nav{
     font-size: 0.8rem;
     display: flex;
     margin: auto 0;
+}
+.logo a{
+    text-decoration: none;
+    color:white
 }
 .logo h1{
     padding-top: 3px;
@@ -59,8 +63,8 @@ h1 .color{
     margin-top: 70px;
 }
 .banner{
-    background-image: url("/Resources/images/pexels-breakingpic-3297.jpg");
-    background-position:initial;
+    background-image: url("/Resources/images/bannerbio2.jpg");
+    background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -68,17 +72,16 @@ h1 .color{
 }
 .banner h1{
     font-family: lato, sans-serif, arial;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 10rem;
-    color:rgb(46, 95, 151);
+    color: white;
 }
 .banner h3{
     font-family: lato, sans-serif, arial;
     text-align:center;
-    font-size: 1.2rem;
-    color: whitesmoke;
-    padding-top: 17rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 /* CALENDAR */
@@ -100,7 +103,7 @@ h1 .color{
     color:grey;
     text-align: center;
     padding-top: 30px;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3);
 }
 .twitterbox{
     width: 22%;
@@ -116,7 +119,7 @@ h1 .color{
     color:grey;
     text-align: center;
     padding-top: 30px;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 0.4px rgba(121, 118, 118,0.3)
 }
 .thenews{
     width: 100%;
