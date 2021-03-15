@@ -19,6 +19,7 @@ nav{
   height: 11vh;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
+  z-index: 99;
   top:0;
   width:100%;
 }
@@ -67,6 +68,7 @@ nav img{
 @media screen and (max-width: 1050px){
   .nav-links{
     width: 60%
+  }
 }
 
 /* NAVIGATOR TABLET SIZE*/
@@ -98,8 +100,9 @@ nav img{
     transform: translateX(0%);
   }
 }
-}
+
 /*LINK FADE*/
+
 @keyframes navLinkFade{
   from{
     opacity: 0;
@@ -187,7 +190,7 @@ nav img{
 }
 /*BANNER*/
 #bannerindex{
-    margin-top: 10vh;
+    margin-top: 11vh;
 }
 .banner{
     background-image: url("/Resources/images/banner1.jpg");
